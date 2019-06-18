@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+.overskiftcv {
+
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #2576bb;
+    color: #ffffff;
+    margin-bottom: 1vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+
+
+
+}
+
+.navn h1 {
+    font-size: 2rem;
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+
+section {
+    max-width: none;
+    margin: 0 auto;
+}
+
+
+/*FONTS*/
+h1,
+h2 {
+
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+p {
+
+    font-size: 1rem;
+    font-family: 'Judson', serif;
+}
+
+
+/*Billed*/
+
+
+.image {
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    border-radius: 10px;
+    border: 15px solid #2576bb;
+    margin: 0.5rem 3rem 3rem 2rem;
+
+
+
+
+
+
+
+    /*CV*/
+
+}
+
+
+
+#cv {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+}
+
+#cv .sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+
+
+
+.col,
+.col1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+/*Responsive*/
+
+@media only screen and (min-width:1184px) {
+
+    .image {
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        justify-content: center;
+        border-radius: 10px;
+        border: 10px solid #2576bb;
+        margin: 0.5rem 25rem 3rem 25rem;
+
+    }
+
+    .col1 {
+        padding-left: 14rem;
+    }
+}

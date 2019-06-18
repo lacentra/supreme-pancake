@@ -1,0 +1,160 @@
+body {
+
+    margin: 0%;
+}
+
+
+/*Fonts*/
+h3 {
+    font-family: 'Judson', serif;
+    font-size: 1.5rem
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.sectionwrapper h1 {
+    padding-bottom: 1vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 2rem;
+}
+
+
+
+.overskiftpor h1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    border-bottom: 3px solid black;
+    background-color: gray;
+    height: 80px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3rem;
+
+}
+
+
+
+#portfolio .sectionwrapper {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 3vw;
+    padding-left: 3.2vw;
+    padding-right: 3.2vw;
+
+    border-bottom: 2px solid black;
+
+
+}
+
+
+#portfolio .top {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+
+#portfolio .txt {
+
+
+    /*childinstillinger*/
+
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+
+
+#portfolio,
+.top,
+.image {
+
+    /*childinstillinger*/
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding-right: 2vw;
+
+
+}
+
+#portfolio,
+.bottom,
+.image {
+
+    /*childinstillinger*/
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding-left: 2vw;
+    padding-bottom: 7vw;
+
+
+}
+
+#portfolio img {
+
+    /*parentindstillinger*/
+
+    width: 100%;
+
+
+
+
+
+}
+
+.video {
+    flex-grow: 1;
+    flex-basis: 300px;
+    padding-left: 2vw;
+
+}
+
+
+
+#portfolio .bottom {
+
+
+    /*parentindstillinger*/
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+
+    /*childinstillinger*/
+
+
+    flex-grow: 1;
+    flex-basis: 300px;
+
+
+}
+
+.bottom,
+.top {
+    padding: 3vw;
+}

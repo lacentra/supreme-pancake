@@ -1,0 +1,61 @@
+body {
+    margin: 0vw;
+    background-color: aqua;
+    max-height: 100%;
+}
+
+#screen {
+    width: 100vw;
+    height: 56.25vw;
+    overflow: hidden;
+    background-image: url(baggrund.png);
+    background-size: 100%;
+}
+
+
+
+.tekst {
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 25vw;
+    color: #ffffff;
+
+
+}
+
+
+
+.tekst1 {
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 0vw;
+    color: #ffffff;
+
+}
+
+body {
+
+    font-size: 3vw
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a {
+    color: #FFFFFF;
+    display: flex;
+    text-decoration: none;
+
+}
